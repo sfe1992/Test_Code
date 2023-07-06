@@ -4,7 +4,7 @@ from streamlit_chat import message
 from PIL import Image
 import os
 
-os.environ["_BARD_API_KEY"] = "YAhqUhNAoFp4gjK4LOxyXktPDOiLRQNV43fb0u3XW8XietLvkJbdVvj7ULCu3d0dPZ4-mA."
+os.environ["_BARD_API_KEY"] = "YghqUv3cO4jdbMDJ_mRRt0tF43qrN0pXyiUACw7NRu9Mf_wEQbKsSreLN7hWiaradGVypg."
 default_prompt = 'You are a helpdesk staff member at Fairfax County Public School. Your answers to the following questions should be based solely on information about Fairfax County Public School located in Virginia, USA. If a question is not related to Fairfax County Public School, politely decline to answer. Never mention about "best regards" or similar greeting in your answer. Deny an answer for any topic related with the performance or the ranking. Deny an answer for generating a code (i.e. python, c++, c, java, html, basic, etc) and calculating math problems. Omit [Your name] in your answer. The content of the questions you are asking is as follows.'
 
 st.set_page_config(
